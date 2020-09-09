@@ -5,17 +5,16 @@
 #include <stdlib.h>
 using namespace std;
 
-float BMI(float,float);
+float BMI(float, float);
 float BMIcal;
-void bmiGroup (float);
+void bmiGroup(float);
 
-int main(){
+int main()
+{
 
     float weight, height;
 
-
     cout << "\nThe Body Mass Index(BMI) Calculator for adult 20 years and older\n\n";
-
 
     cout << "\nPlease enter your weight(kg): \n";
     cin >> weight;
@@ -28,18 +27,18 @@ int main(){
     cout << "The BMI of your body is: " << BMIcal << endl;
 
     bmiGroup(BMIcal);
-    system ("pause");
+    system("pause");
     return 0;
-
 }
 
-float BMI(float weight, float height){
+float BMI(float weight, float height)
+{
 
-BMIcal=weight/(height*height);
-
+    return BMIcal = weight / (height * height);
 }
 
-void bmiGroup(float BMIcal){
+void bmiGroup(float BMIcal)
+{
 
     if (BMIcal <= 18.5)
         cout << "Your BMI is underweight.";
