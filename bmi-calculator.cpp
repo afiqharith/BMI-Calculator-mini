@@ -2,6 +2,7 @@
 //Date: 27 Nov 2017
 
 #include <iostream>
+#include <stdlib.h>
 using namespace std;
 
 float BMI(float,float);
@@ -27,12 +28,12 @@ int main(){
     cout << "The BMI of your body is: " << BMIcal << endl;
 
     bmiGroup(BMIcal);
-
+    system ("pause");
     return 0;
 
 }
 
-float BMI (float weight, float height){
+float BMI(float weight, float height){
 
 BMIcal=weight/(height*height);
 
