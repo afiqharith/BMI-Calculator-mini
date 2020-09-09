@@ -1,4 +1,4 @@
-//Number guessing game
+//BMI Calculator
 //Date: 27 Nov 2017
 
 #include <iostream>
